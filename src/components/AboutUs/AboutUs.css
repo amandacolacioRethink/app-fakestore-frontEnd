@@ -1,0 +1,66 @@
+.containerAbout {
+    height: 513px;
+    background: #c1dcdc;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+}
+
+.titleAbout {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    padding: 45px;
+}
+ 
+.titleAbout h1 {
+    font: normal 700 32px "Poppins";
+    line-height: 48px;
+    color: #1e1e1e;
+}  
+
+.titleAbout h2 {
+    font: normal 500 18px "Poppins";
+    line-height: 27px;
+    color: rgba(30, 30, 30, 0.5);
+    margin-top: 0px;
+    margin-bottom: 20px;
+}
+
+.frameContainer {
+    display: flex;
+    height: 213px;
+}
+
+.frame {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 400px;
+  }
+  
+.frame i {
+    font-size:40px;
+}
+  
+.frame h3 {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 27px;
+    color: #000000;
+    margin-top: 51px;
+}
+  
+.frame h4 {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    text-align: center;
+    color: rgba(30, 30, 30, 0.5);
+    margin-top: 0px;
+}

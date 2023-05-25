@@ -1,0 +1,62 @@
+.containerCategories {
+    display: flex;
+    flex-direction: column;
+    height: 777px;
+    align-items: center;
+    background: #ffffff;
+}
+
+.introCategories{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    padding: 45px;
+}
+
+.introCategories h1{
+    width: 182px;
+    height: 48px;
+    
+    font: normal 700 32px "Poppins";
+    line-height: 48px;
+    color: #1E1E1E;
+}
+
+.introCategories h2{
+    width: 262px;
+    height: 27px;
+    margin-top:0px;
+
+    font: normal 500 18px "Poppins";
+    line-height: 27px;
+    color: rgba(30, 30, 30, 0.5);
+}
+
+.cardCategories {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    gap: 96px;
+}
+
+.cardCategories .card{
+    align-items: center;
+}
+
+.Explore button {
+    font: normal 500 18px "Poppins";
+    line-height: 27px;
+    padding: 12px 24px;
+
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+    background-color: #FFF;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+
