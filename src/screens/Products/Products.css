@@ -1,0 +1,117 @@
+.search{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 140px;
+    padding: 0px 96px;
+}
+
+.searchProducts{
+    box-sizing: border-box;
+    border: 1px solid #C1DCDC;
+    display: flex;
+    flex-direction: row;
+    width: 439px;
+    border-radius: 12px;
+    align-items: center;
+}
+
+.searchProducts:focus-within{
+    outline: 2px solid #C1DCDC;
+}
+
+.searchProducts input{
+    width: 380px;
+    height: 64px;
+    background: #FFFFFF;
+    border:none;
+    border-radius: 12px;
+
+    text-align: left;
+    padding: 20px;
+    font: normal 500 18px 'Poppins';
+    line-height: 27px;
+    color: rgba(30, 30, 30, 0.5);
+    outline: none;
+}
+
+.searchProducts button {
+    width: 48px;
+    height: 48px;
+    background: #C1DCDC;
+    border-radius: 12px;
+    border: none;
+}
+
+.searchProducts button i{
+    font-size: 25px;
+    line-height:2px;
+
+}
+
+.categorySearch{
+    border: 1px solid #C1DCDC;
+    display: flex;
+    flex-direction: row;
+    width: 439px;
+    border-radius: 12px;
+    align-items: center;
+    border-radius: 12px;
+}
+
+.categorySearch select{
+    width: 380px;
+    height: 64px;
+    background: #FFFFFF;
+    border:none;
+    border-radius: 12px;
+
+    text-align: left;
+    padding: 20px;
+    font: normal 500 18px 'Poppins';
+    line-height: 27px;
+    color: rgba(30, 30, 30, 0.5);
+    outline: none;
+}
+
+.select-icon{
+    width: 48px;
+    height: 48px;
+    background: #C1DCDC;
+    border-radius: 12px;
+    border: none;
+    line-height:1px;
+
+    font-size: 25px;
+    background-color: #C1DCDC;
+    cursor: pointer;    
+}
+
+select {
+    -webkit-appearance: none;
+    -moz-appearance:    none;
+    appearance:         none;
+}
+
+.cardProducts{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 0px 96px;
+    justify-content: space-evenly;
+    gap: 35px;
+    line-height: 17px;
+}
+.containerProducts {
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+.containerProducts h1{
+    font: normal 700 32px 'Poppins';
+    line-height: 48px; 
+    margin-bottom: 45px;
+
+    color: #1E1E1E;
+}
