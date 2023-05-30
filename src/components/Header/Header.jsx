@@ -1,5 +1,7 @@
 import './Header.css';
 import { FaShoppingCart, FaUser } from 'react-icons/fa';
+import { NavLink } from "react-router-dom";
+
 
 
 const Header = () => {
@@ -7,9 +9,9 @@ const Header = () => {
     <header className="left">
         <h1>GREENMIND</h1>
         <nav>
-          <a href="/" className="active">Home</a>
-          <a href="/products">Products</a>
-          <a href="/contacts">Contacts</a>
+          <NavLink to="/">Home</NavLink>
+          <NavLink to="/products">Products</NavLink>
+          <NavLink to="/contacts">Contacts</NavLink>
         </nav>
       <div className="right">
           <a href="/cart">

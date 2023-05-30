@@ -1,8 +1,11 @@
-import React from 'react'
+import './Product.css'
+import { CardDescription } from '../../components'
 
 const Product = () => {
   return (
-    <div>Product</div>
+    <div>
+      <CardDescription/>
+    </div>
   )
 }
 
