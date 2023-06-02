@@ -19,3 +19,8 @@ export async function getProductById(id){
   const response = await api.get('products/'+id);
   return response.data;
 }
+
+export async function createNewProduct(product){
+  const response = await api.post('/products/' + product)
+  return response.data;
+}

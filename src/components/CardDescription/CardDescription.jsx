@@ -43,14 +43,18 @@ const CardDescription = (props) => {
             <h4> Categoria: {product.category}</h4>
            <div className="avaliacao">
               <img src={stars} alt="Estrelinhas" />
-              <h4>{product.rating.count} avalições de clientes</h4>
+              <div
+                className="cover"
+                style={product && { width: `${calculateStars(product)}%` }}
+                ></div>
+                <h4>{product.rating.count} avalições de clientes</h4>
            </div>
            
           </div>
           <Line />
           <div className="moreInfoProduct">
             <span id='cifrao'>R$</span>
-            <span id='value'>399</span>
+            <span id='value'>{product.price}</span>
             <div className="descriptionProduct">
               <h3>Descrição do produto:</h3>
               <h4>{product.description}</h4>
@@ -70,6 +74,7 @@ const CardDescription = (props) => {
             </div>
             <Line/>
         </div>
+          
       )}
     </div>
   );
